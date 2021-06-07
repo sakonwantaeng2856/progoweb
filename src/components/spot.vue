@@ -106,7 +106,7 @@
     </div>
   </div>
   <br />
-  <router-link to="/register" class="btn btn-success mx-2">
+  <router-link to="/" class="btn btn-success mx-2">
     ทดลองใช้งาน
   </router-link>
 

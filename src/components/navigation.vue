@@ -32,7 +32,6 @@
           <router-link to="/register" class="btn btn-success mx-2">
             สมัครใช้งาน
           </router-link>
-          <router-view></router-view>
         </div>
       </ul>
     </div>

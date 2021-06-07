@@ -264,7 +264,7 @@ export default {
 .card1 {
   position: absolute;
   width: 400px;
-  height: 1015px;
+  height: 1030px;
   left: calc(50% - 400px / 2 + 480px);
   top: 70px;
   background: #017c17;
@@ -282,7 +282,7 @@ export default {
 .card2 {
   position: absolute;
   width: 400px;
-  height: 1015px;
+  height: 1030px;
   left: calc(50% - 400px / 2);
   top: 70px;
   background: #ffffff;
@@ -299,7 +299,7 @@ export default {
 .card3 {
   position: absolute;
   width: 400px;
-  height: 1015px;
+  height: 1030px;
   left: calc(50% - 400px / 2 - 480px);
   top: 70px;
   background: #ffffff;

@@ -18,7 +18,6 @@
     <feaure />
     <pricing />
     <contact />
-    <register />
     <footerA />
   </div>
 </template>
@@ -32,7 +31,7 @@ import feaure from "@/components/feaure.vue";
 import pricing from "@/components/pricing.vue";
 import contact from "@/components/contact.vue";
 import footerA from "./components/footerA.vue";
-import Register from "./components/register.vue";
+
 export default {
   name: "Home",
   components: {
@@ -43,7 +42,6 @@ export default {
     pricing,
     contact,
     footerA,
-    Register,
   },
 };
 </script>
