@@ -12,36 +12,18 @@
     />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
 
-    <navigation />
-    <slide />
-    <spot />
-    <feaure />
-    <pricing />
-    <contact />
-    <footerA />
+    <Home />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import navigation from "@/components/navigation.vue";
-import spot from "@/components/spot.vue";
-import slide from "@/components/slide.vue";
-import feaure from "@/components/feaure.vue";
-import pricing from "@/components/pricing.vue";
-import contact from "@/components/contact.vue";
-import footerA from "./components/footerA.vue";
+import Home from "@/views/Home.vue";
 
 export default {
-  name: "Home",
+  name: "app",
   components: {
-    navigation,
-    spot,
-    slide,
-    feaure,
-    pricing,
-    contact,
-    footerA,
+    Home,
   },
 };
 </script>
