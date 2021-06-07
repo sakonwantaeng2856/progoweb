@@ -24,7 +24,7 @@
           </div>
         </div>
       </div>
-      <div class="btn1">
+      <ul class="btn1">
         <div class="btn-wrapper">
           <router-link to="/login" class="btn btn-success-outline mx-2">
             เข้าสู่ระบบ
@@ -32,15 +32,17 @@
           <router-link to="/register" class="btn btn-success mx-2">
             สมัครใช้งาน
           </router-link>
-          <a class="nav-link" href="register" to="register">Link 3</a>
+          <router-view></router-view>
         </div>
-      </div>
+      </ul>
     </div>
   </nav>
 </template>
 
 <script>
-export default {};
+export default {
+  name: "navigatin",
+};
 </script>
 
 <style>
